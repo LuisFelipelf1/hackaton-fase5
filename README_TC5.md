@@ -128,7 +128,7 @@ Exemplo observado:
 ## 🚀 7. Como Executar
 
 1. Abrir o notebook no Google Colab:
-   TC5_STRIDE_AI_Complete.ipynb
+   [TC5_STRIDE_AI_Complete.ipynb](https://colab.research.google.com/drive/1MFadb4f2TkaseJtNYg3aDfVYJeqMK6Cv#scrollTo=5-qpT8MLywuf)
 
 2. Executar todas as células.
 
