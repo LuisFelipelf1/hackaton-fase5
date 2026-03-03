@@ -1,0 +1,136 @@
+system,component,component_type,stride,stride_name,risk_score,risk_level
+Arquitetura 1 (AWS) — SEI/SIP,Usuários SEI,user,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Usuários SEI,user,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Shield,ddos_protection,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon CloudFront,cdn,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon CloudFront,cdn,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon CloudFront,cdn,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS WAF,waf,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS WAF,waf,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,VPC,network_boundary,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,VPC,network_boundary,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,VPC,network_boundary,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,VPC,network_boundary,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet A,subnet_public,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet A,subnet_public,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet A,subnet_public,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet B,subnet_public,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet B,subnet_public,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet B,subnet_public,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet C,subnet_public,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet C,subnet_public,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Public Subnet C,subnet_public,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer A,load_balancer,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer A,load_balancer,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer A,load_balancer,S,Spoofing,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer B,load_balancer,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer B,load_balancer,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer B,load_balancer,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer C,load_balancer,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer C,load_balancer,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Application Load Balancer C,load_balancer,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,E,Elevation of Privilege,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server A,app_server,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,E,Elevation of Privilege,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server B,app_server,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,E,Elevation of Privilege,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,SEI/SIP App Server C,app_server,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,E,Elevation of Privilege,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,S,Spoofing,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Solr,app_server,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Primary),database,E,Elevation of Privilege,6,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Primary),database,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Primary),database,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Primary),database,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Primary),database,R,Repudiation,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Secondary),database,E,Elevation of Privilege,6,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Secondary),database,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Secondary),database,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Secondary),database,D,Denial of Service,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon RDS (Secondary),database,R,Repudiation,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon ElastiCache (Memcached),cache,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon ElastiCache (Memcached),cache,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon ElastiCache (Memcached),cache,D,Denial of Service,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Elastic File System (NFS),filesystem,T,Tampering,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Elastic File System (NFS),filesystem,I,Information Disclosure,3,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Elastic File System (NFS),filesystem,R,Repudiation,2,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,AWS CloudTrail,logging_audit,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS CloudTrail,logging_audit,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS CloudTrail,logging_audit,R,Repudiation,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Key Management Service,kms,T,Tampering,7,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Key Management Service,kms,I,Information Disclosure,7,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Key Management Service,kms,S,Spoofing,6,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Backup,backup,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Backup,backup,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,AWS Backup,backup,R,Repudiation,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon CloudWatch,monitoring,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon CloudWatch,monitoring,R,Repudiation,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Simple Email Service (SES),email_service,T,Tampering,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Simple Email Service (SES),email_service,I,Information Disclosure,5,MÉDIO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Simple Email Service (SES),email_service,S,Spoofing,4,BAIXO
+Arquitetura 1 (AWS) — SEI/SIP,Amazon Simple Email Service (SES),email_service,R,Repudiation,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Usuario Externo,user,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Usuario Externo,user,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,E,Elevation of Privilege,8,ALTO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,T,Tampering,7,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,I,Information Disclosure,7,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,D,Denial of Service,7,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,S,Spoofing,6,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,Microsoft Entra ID,identity_provider,R,Repudiation,6,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,E,Elevation of Privilege,6,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,T,Tampering,5,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,I,Information Disclosure,5,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,D,Denial of Service,5,MÉDIO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,S,Spoofing,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,API Gateway,api_gateway,R,Repudiation,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Developer Portal,web_app,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Logic Apps,function,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,Azure Services,cloud_service,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SaaS Services,saas,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,REST Web Services,rest_service,R,Repudiation,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,E,Elevation of Privilege,4,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,T,Tampering,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,I,Information Disclosure,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,D,Denial of Service,3,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,S,Spoofing,2,BAIXO
+Arquitetura 2 - Azure API Management e Logic Apps,SOAP Web Services,soap_service,R,Repudiation,2,BAIXO
