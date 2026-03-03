@@ -161,7 +161,7 @@ O notebook irá:
 
 ## 🎥 10. Vídeo de Apresentação
 
-Inserir aqui o link do vídeo (YouTube ou similar).
+[Inserir aqui o link do vídeo (YouTube ou similar).](https://www.youtube.com/watch?v=glDDXu7K4zo)
 
 ---
 
